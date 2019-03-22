@@ -8,9 +8,7 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-      <h3>Hello World, we are software developers!</h3>
       <header id="header">
-        <img id="header-img" src="https://www.logomaker.com/wp-content/uploads/2015/06/Logo-Samples2-21-min.jpg" alt="">
         <nav id="nav-bar">
           <ul>
             <li><a href="#" class="nav-link">Features</a></li>
@@ -18,18 +16,21 @@
             <li><a href="#" class="nav-link">Pricing</a></li>
           </ul>
         </nav>
+          <img id="header-img" src="https://www.logomaker.com/wp-content/uploads/2015/06/Logo-Samples2-21-min.jpg" alt=""/>
       </header>
 
       <section>
-        <video id="video" src="videos/why_we_code.mp4" poster="" controls>
-        <video>
-      <section>
-
-      <section>
-        <form id="form">
-          <input id="email" type="email">
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" placeholder="type your email" type="email"/>
+          <input type="submit" value="submit" id="submit"/>
         </form>
-      <section>
+      </section>
+
+      <section id="video-section">
+        <video id="video" src="videos/why_we_code.mp4" poster="https://s11.therealdeal.com/trd/ci/up/2018/04/Bill-Gates600-650x377.jpg" controls/>
+      </section>
+
+
     <script  src="js/index.js"></script>
   </body>
 </html>
